@@ -86,8 +86,8 @@ async function run() {
       const result = await habitCollection.updateOne(query, updateDoc);
       res.send(result);
     });
-
-    // Delete a habit by id
+   
+    // Delete a habit by id in server
     app.delete("/habits/:id", async (req, res) => {
       const id = req.params.id;
 
