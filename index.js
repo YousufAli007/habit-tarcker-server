@@ -126,7 +126,7 @@ async function run() {
 
      const newHistory = [...(habit.completingHistory || []), today];
 
-     // streak হিসাব
+     
      newHistory.sort((a, b) => new Date(b) - new Date(a));
      let streak = 1;
      for (let i = 1; i < newHistory.length; i++) {
