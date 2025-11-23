@@ -108,7 +108,7 @@ async function run() {
     });
 
     
-    // MARK COMPLETE
+    // MARK COMPLETE by id
  app.put("/habits/complete/:id", async (req, res) => {
    const id = req.params.id;
 
